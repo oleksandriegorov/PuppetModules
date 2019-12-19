@@ -1,0 +1,15 @@
+{
+  "name": "oleksandriegorov-pdk_example_1",
+  "version": "0.1.0",
+  "author": "oleksandriegorov",
+  "summary": "Example module with trivial PDK tests, which serves single purpose - linkedin article",
+  "license": "Apache-2.0",
+  "source": "TBA",
+  "project_page": "TBA",
+  "issues_url": "TBA",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
