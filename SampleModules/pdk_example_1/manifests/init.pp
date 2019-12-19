@@ -44,5 +44,10 @@
 #
 class pdk_example_1 {
 
+include pdf_example1::opts
+include pdf_example1::configs
+include pdk_example1::services
+
+Class['pdf_example1::opts'] -> Class['pdf_example1::configs'] ~> Class['pdk_example1::services']
 
 }
